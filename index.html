@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheets -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Blackjack Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blackjack-container">
+        <h1 class="blackjack-title">blackjack game</h1>
+        <h2><span id="blackjack-result">Let's play!</span></h2>
+        <!-- row 1 -->
+        <div class="blackjack-row-1">
+          <div class="your-box">
+            <h3>You : <span id="your-result">0</span></h3>
+          </div>
+          <div class="dealer-box">
+            <h3>Dealer : <span id="dealer-result">0</span></h3>
+          </div>
+        </div>
+        <!-- row 2 -->
+        <div class="blackjack-row-2">
+          <div class="btn-container">
+            <button type="button" class="btn" id="hit-btn">Hit</button>
+            <button type="button" class="btn" id="stand-btn">Stand</button>
+            <button type="button" class="btn" id="deal-btn">Deal</button>
+          </div>
+        </div>
+        <!-- row 3 -->
+        <div class="blackjack-row-3">
+          <div class="table-container">
+            <table class="blackjack-table">
+              <tr>
+                <th>Wins</th>
+                <th>Loses</th>
+                <th>Draw</th>
+              </tr>
+              <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="loses">0</span></td>
+                <td><span id="draws">0</span></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <footer>
+          <p>Made with ❤️ by Umair.</p>
+        </footer>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
